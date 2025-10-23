@@ -171,6 +171,45 @@ public class Main {
         System.out.println("\nDespués de dividendo %= 5: " + dividendo);
         System.out.println("Esto significa: 17 dividido entre 5 da residuo " + dividendo);
 
+        // Operadores de comparación
+
+        int comparador1 = 10;
+        int comparador2 = 5;
+        int comparador3 = 10;
+        
+        System.out.println("comparador 1 = " + comparador1 + ", comparador 2 = " + comparador2 + ", comparador 3 = " + comparador3);
+        
+        System.out.println("comparador 1 == comparador 2: " + (comparador1 == comparador2));  
+        System.out.println("comparador 1 == comparador 3: " + (comparador1 == comparador3)); 
+        System.out.println("comparador 1 != comparador 2: " + (comparador1 != comparador3));   
+        System.out.println("comparador 1 != comparador 3: " + (comparador1 != comparador3));
+
+        // <>
+
+        int num1 = 10;
+        int num2 = 40;
+        int num3 = 20;
+
+        System.out.println("numero 1: " +num1 + " Numero 2: " +num2 + " Numero 3: " + num3);
+
+        System.out.println("Numero 3 > Numero 2?: " + (num3>num2));
+        System.out.println("numero 1 < numero 2?: " + (num1<num2));
+         System.out.println("Numero 2 >= Numero 1?: " + (num2>=num1));
+        System.out.println("numero 3 <= numero 1?: " + (num3<=num1));
+
+        // USANDO IF
+
+        if(comparador1==comparador3){
+            System.out.println("Los numero son iguales");
+        } else{
+            System.out.println("Ambos son numeros diferentes");
+        }
+
+        if (num3<num1){
+            System.out.println("El numero 3 es menor a el numero 1");
+        } else{
+            System.out.println("El numero 1 es menor a el numero 3");
+        }
     }
 
     // Clase Persona como ejemplo de dato no primitivo
