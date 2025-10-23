@@ -47,5 +47,38 @@ public class Main {
         kebab-case (ejemplo: mi-variable) NO es válido en Java porque el guion medio "-" se interpreta como un operador de resta.
         Ejemplo inválido: String mi-variable = "error"; Esto causaría un error de compilación. */
 
+        // Datos primitivos en Java
+
+        byte bytePrimitivo = 100;
+        short shortPrimitivo = 10000;
+        int intPrimitivo = 100000;
+        long longPrimitivo = 100000L;
+        float floatPrimitivo = 10.99f;
+        double doublePrimitivo = 19.99d;
+        boolean booleanPrimitivo = true;
+        char charPrimitivo = 'A';
+
+        System.out.println("byte: " + bytePrimitivo);
+        System.out.println("short: " + shortPrimitivo);
+        System.out.println("int: " + intPrimitivo);
+        System.out.println("long: " + longPrimitivo);
+        System.out.println("float: " + floatPrimitivo);    
+        System.out.println("double: " + doublePrimitivo);
+        System.out.println("boolean: " + booleanPrimitivo);
+        System.out.println("char: " + charPrimitivo);
+
+        // Ejemplos de operaciones con datos primitivos
+        int operacionSuma = 5 + 3;
+        System.out.println("Suma: " + operacionSuma);
+
+        // Ejemplo con boolean y condicional
+        int edadActualBool = 17;
+        boolean esMayor = edadActualBool > 18;
+        System.out.println("¿Es mayor de edad? " + esMayor);
+        if (esMayor) {
+            System.out.println("El usuario es mayor de edad.");
+        } else {
+            System.out.println("El usuario es menor de edad.");
+        }
     }
 }
