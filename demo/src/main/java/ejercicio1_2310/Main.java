@@ -97,22 +97,25 @@ public class Main {
         System.out.println("Posición 0: " + numeros[0]);
         System.out.println("Posición 1: " + numeros[1]);
         System.out.println("Posición 2: " + numeros[2]);
+
+        Persona persona1 = new Persona("Stiven", 17);
+
+        // Mostrar los datos del objeto creado
+        System.out.println("Datos de la persona:");
+        System.out.println("Nombre: " + persona1.nombre);
+        System.out.println("Edad: " + persona1.edad);
     }
 
     // Clase Persona como ejemplo de dato no primitivo
-    class Persona {
-        String nombre;
-        int edad;
+        static class Persona {
+    String nombre;
+    int edad;
 
-        // Constructor
-        public Persona(String nombre, int edad) {
+    // Constructor de la clase Persona
+        Persona(String nombre, int edad) {
             this.nombre = nombre;
             this.edad = edad;
         }
-
-        // Método para mostrar información de la persona
-        public void mostrarInfo() {
-            System.out.println("Nombre: " + nombre + ", Edad: " + edad);
-        }
+        
     }
 }
