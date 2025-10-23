@@ -29,5 +29,19 @@ public class Main {
         String mensajeConvencion = "La convención PascalCase se usa para nombres de clases en Java. la primera letra de cada palabra compuesta se escribe en mayúscula, sin usar espacios ni guiones bajos, en este caso la clase Main.";
         System.out.println(mensajeConvencion);
 
+         // lowerCamelCase para variables
+        String nombreUsuario = "stivenescobarg";
+        int numeroDeIntentos = 3;
+
+        System.out.println("Usuario: " + nombreUsuario);
+        System.out.println("Número de intentos: " + numeroDeIntentos);
+
+        // snake_case: también válido en Java (aunque no común)
+        String nombre_usuario = "stiven_escobar";
+        int edad_usuario = 30;
+
+        System.out.println("Nombre (snake_case): " + nombre_usuario);
+        System.out.println("Edad (snake_case): " + edad_usuario);
+
     }
 }
