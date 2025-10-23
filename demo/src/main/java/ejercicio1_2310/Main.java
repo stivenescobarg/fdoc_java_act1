@@ -210,6 +210,31 @@ public class Main {
         } else{
             System.out.println("El numero 1 es menor a el numero 3");
         }
+
+        // Operadores lógicos
+
+        // || &&
+
+        boolean condicion1 = true;
+        boolean condicion2 = false;
+        boolean condicion3= false;
+
+        System.out.println("Condición 1: "+ condicion1 + " \nCondicion 2: " + condicion2 + " \nCondicion 3: " + condicion3);
+
+        System.out.println(" Condicion 1 && Condicion 2: " + (condicion1&&condicion2));
+        System.out.println(" Condicion 2 || Condicion 3: " + (condicion2||condicion3));
+         System.out.println(" Condicion 2 || Condicion 1: " + (condicion2||condicion1));
+
+         // ! boolean
+
+        System.out.println(" Negación condicional 1 " + (!condicion1));
+        System.out.println(" Negación Condicional 2 " + (!condicion3));
+
+        // Combinación operadores lógicos y parentesis
+
+        boolean combinacion1 = (condicion1 && condicion2) || condicion3;
+        System.out.println("(Condición1 AND Condición2) OR Condición3: " + combinacion1);
+
     }
 
     // Clase Persona como ejemplo de dato no primitivo
