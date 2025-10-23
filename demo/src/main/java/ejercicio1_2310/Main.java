@@ -80,5 +80,39 @@ public class Main {
         } else {
             System.out.println("El usuario es menor de edad.");
         }
+
+        // Datos no primitivos (objetos)
+        String textoNoPrimitivo = "hola, mundo no primitivo";
+        
+
+         int[] numeros = new int[3];
+
+        // Asignación de valores a las posiciones del arreglo
+        numeros[0] = 10;
+        numeros[1] = 20;
+        numeros[2] = 30;
+
+        // Impresión de los valores del arreglo
+        System.out.println("Contenido del arreglo int[]:");
+        System.out.println("Posición 0: " + numeros[0]);
+        System.out.println("Posición 1: " + numeros[1]);
+        System.out.println("Posición 2: " + numeros[2]);
+    }
+
+    // Clase Persona como ejemplo de dato no primitivo
+    class Persona {
+        String nombre;
+        int edad;
+
+        // Constructor
+        public Persona(String nombre, int edad) {
+            this.nombre = nombre;
+            this.edad = edad;
+        }
+
+        // Método para mostrar información de la persona
+        public void mostrarInfo() {
+            System.out.println("Nombre: " + nombre + ", Edad: " + edad);
+        }
     }
 }
