@@ -43,5 +43,9 @@ public class Main {
         System.out.println("Nombre (snake_case): " + nombre_usuario);
         System.out.println("Edad (snake_case): " + edad_usuario);
 
+      /*  Comentario sobre kebab-case:
+        kebab-case (ejemplo: mi-variable) NO es válido en Java porque el guion medio "-" se interpreta como un operador de resta.
+        Ejemplo inválido: String mi-variable = "error"; Esto causaría un error de compilación. */
+
     }
 }
