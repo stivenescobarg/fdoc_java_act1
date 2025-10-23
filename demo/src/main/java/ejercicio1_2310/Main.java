@@ -104,6 +104,40 @@ public class Main {
         System.out.println("Datos de la persona:");
         System.out.println("Nombre: " + persona1.nombre);
         System.out.println("Edad: " + persona1.edad);
+
+        //Operadores aritméticos
+
+        int a=5;
+        int b=10;
+
+        int sumar=  a+b;
+        int restar= b-a;
+        int multiplicar= a*b;
+        int dividir= b/a;
+        int modulo= b%a;
+
+        System.out.println("Suma: " + sumar);
+        System.out.println("Resta: " + restar);
+        System.out.println("Multiplicación: " + multiplicar);
+        System.out.println("División: " + dividir);
+        System.out.println("Módulo: " + modulo);
+
+        // Division entera y decimal del mismo par de numeros
+
+        int divisionEntera= b/a;
+        double divisionDecimal= (double) b/a;
+        System.out.println("División entera: " + divisionEntera);
+        System.out.println("División decimal: " + divisionDecimal);
+
+        // Incremento y decremento
+
+        int contador = 10;
+        System.out.println("Contador inicial: " + contador);
+        contador+=2; // Incremento
+        System.out.println("Después del incremento: " + contador);
+        contador--; // Decremento
+        System.out.println("Después del decremento: " + contador);
+
     }
 
     // Clase Persona como ejemplo de dato no primitivo
@@ -116,6 +150,6 @@ public class Main {
             this.nombre = nombre;
             this.edad = edad;
         }
-        
+
     }
 }
