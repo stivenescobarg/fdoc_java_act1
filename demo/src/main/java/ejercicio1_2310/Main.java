@@ -126,6 +126,7 @@ public class Main {
 
         int divisionEntera= b/a;
         double divisionDecimal= (double) b/a;
+
         System.out.println("División entera: " + divisionEntera);
         System.out.println("División decimal: " + divisionDecimal);
 
@@ -137,6 +138,38 @@ public class Main {
         System.out.println("Después del incremento: " + contador);
         contador--; // Decremento
         System.out.println("Después del decremento: " + contador);
+
+        // Operadores de asignación
+
+        int valor = 10;
+        System.out.println("Valor inicial: " + valor);
+        
+        valor += 5; // Equivale a: valor = valor + 5
+        System.out.println("Después de valor += 5: " + valor);
+        
+        valor -= 3; // Equivale a: valor = valor - 3
+        System.out.println("Después de valor -= 3: " + valor);
+        
+        int numeroAsignación = 4;
+        System.out.println("Número inicial: " + numeroAsignación);
+        
+        numeroAsignación *= 4; // Equivale a: numero = numero * 2
+        System.out.println("Después de numero *= 4: " + numeroAsignación);
+        
+        numeroAsignación /= 3; // Equivale a: numero = numero / 3
+        System.out.println("Después de numero /= 3: " + numeroAsignación);
+
+        //%=
+
+        int dividendo = 17;
+        System.out.println("Valor inicial: " + dividendo);
+        
+        System.out.println("\nExplicación: %= calcula el residuo de la división");
+        System.out.println("Por ejemplo: 17 % 5 = 2 (porque 17 ÷ 5 = 3 con residuo 2)");
+        
+        dividendo %= 5;
+        System.out.println("\nDespués de dividendo %= 5: " + dividendo);
+        System.out.println("Esto significa: 17 dividido entre 5 da residuo " + dividendo);
 
     }
 
