@@ -260,6 +260,23 @@ public class Main {
             System.out.println("El número es grande");
         }
 
+         // ---------- OPERADOR TERNARIO ----------
+        int edad2 = 20;
+        String mensajeEdad = (edad2 >= 18) ? "Mayor de edad" : "Menor de edad";
+        System.out.println(mensajeEdad);
+
+        int cantidad = 12;
+        double precio = 100.0;
+        double total = (cantidad * precio);
+        System.out.println("El precio sin descuento es: "+total);
+        double totalAPagar = (cantidad > 10) ? precio * 0.9 : precio; // 10% de descuento si compra más de 10
+        System.out.println("Total a pagar aplicando el descuento: $" + totalAPagar);
+        
+
+        int num = 7;
+        String paridad = (num % 2 == 0) ? "Par" : "Impar";
+        System.out.println("El número " + num + " es " + paridad);
+
     }
 
     // Clase Persona como ejemplo de dato no primitivo
