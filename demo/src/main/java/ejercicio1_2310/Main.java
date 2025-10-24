@@ -235,6 +235,31 @@ public class Main {
         boolean combinacion1 = (condicion1 && condicion2) || condicion3;
         System.out.println("(Condición1 AND Condición2) OR Condición3: " + combinacion1);
 
+         // ---------- IF ----------
+        int if1 = 10;
+        int if2 = 5;
+        if (a > b) {
+            System.out.println("El número " + if1 + " es mayor que " + if2);
+        }
+
+        // ---------- IF - ELSE ----------
+        int edad = 17;
+        if (edad >= 18) {
+            System.out.println("Eres mayor de edad");
+        } else {
+            System.out.println("Eres menor de edad");
+        }
+
+        // ---------- IF - ELSE IF - ELSE ----------
+        int numeroIfElse = 45;
+        if (numeroIfElse < 20) {
+            System.out.println("El número es pequeño");
+        } else if (numeroIfElse <= 50) {
+            System.out.println("El número es mediano");
+        } else {
+            System.out.println("El número es grande");
+        }
+
     }
 
     // Clase Persona como ejemplo de dato no primitivo
