@@ -1,9 +1,13 @@
 package ejercicio1_2310;
 
+import java.util.Scanner;
+
 public class Main {
     
     public static void main(String[] args) {
         
+          Scanner sc = new Scanner(System.in);
+          
         int numero = 5;
         System.out.println("El número es: " + numero);
 
@@ -314,6 +318,38 @@ public class Main {
             case 4: System.out.println("Invierno"); break;
             default: System.out.println("Número inválido");
         }
+
+        
+        // ---------- OTROS EJEMPLOS ----------
+        int n = -3;
+        if (n > 0) {
+            System.out.println("El número es positivo");
+        } else if (n < 0) {
+            System.out.println("El número es negativo");
+        } else {
+            System.out.println("El número es cero");
+        }
+
+        String contraseñaEsperada = "1234";
+        System.out.print("Ingrese su contraseña: ");
+        String contraseñaIngresada = sc.nextLine();
+
+        if (contraseñaIngresada.equals(contraseñaEsperada)) {
+            System.out.println("Acceso concedido");
+        } else {
+            System.out.println("Contraseña incorrecta");
+        }
+
+        double nota = 3.5;
+        if (nota < 3.0) {
+            System.out.println("Reprobado");
+        } else if (nota < 4.0) {
+            System.out.println("Aprobado");
+        } else {
+            System.out.println("Excelente desempeño");
+        }
+
+        sc.close();
 
     }
 
