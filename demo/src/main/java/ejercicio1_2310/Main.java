@@ -277,6 +277,44 @@ public class Main {
         String paridad = (num % 2 == 0) ? "Par" : "Impar";
         System.out.println("El número " + num + " es " + paridad);
 
+               // ---------- SWITCH ----------
+        String dia = "Martes";
+        int numeroDia;
+        switch (dia.toLowerCase()) {
+            case "lunes": numeroDia = 1; break;
+            case "martes": numeroDia = 2; break;
+            case "miércoles":
+            case "miercoles": numeroDia = 3; break;
+            case "jueves": numeroDia = 4; break;
+            case "viernes": numeroDia = 5; break;
+            case "sábado":
+            case "sabado": numeroDia = 6; break;
+            case "domingo": numeroDia = 7; break;
+            default: numeroDia = 0;
+        }
+        System.out.println("El día " + dia + " corresponde al número " + numeroDia);
+
+        int calificacion = 4;
+        String textoCalificacion;
+        switch (calificacion) {
+            case 1: textoCalificacion = "Insuficiente"; break;
+            case 2: textoCalificacion = "Regular"; break;
+            case 3: textoCalificacion = "Bueno"; break;
+            case 4: textoCalificacion = "Muy Bueno"; break;
+            case 5: textoCalificacion = "Excelente"; break;
+            default: textoCalificacion = "Calificación inválida";
+        }
+        System.out.println("Tu desempeño es: " + textoCalificacion);
+
+        int estacion = 2;
+        switch (estacion) {
+            case 1: System.out.println("Primavera"); break;
+            case 2: System.out.println("Verano"); break;
+            case 3: System.out.println("Otoño"); break;
+            case 4: System.out.println("Invierno"); break;
+            default: System.out.println("Número inválido");
+        }
+
     }
 
     // Clase Persona como ejemplo de dato no primitivo
