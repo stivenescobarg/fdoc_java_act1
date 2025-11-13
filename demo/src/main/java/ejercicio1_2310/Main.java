@@ -40,16 +40,12 @@ public class Main {
         System.out.println("Usuario: " + nombreUsuario);
         System.out.println("Número de intentos: " + numeroDeIntentos);
 
-        // snake_case: también válido en Java (aunque no común)
+        // snake_case
         String nombre_usuario = "stiven_escobar";
         int edad_usuario = 30;
 
         System.out.println("Nombre (snake_case): " + nombre_usuario);
         System.out.println("Edad (snake_case): " + edad_usuario);
-
-      /*  Comentario sobre kebab-case:
-        kebab-case (ejemplo: mi-variable) NO es válido en Java porque el guion medio "-" se interpreta como un operador de resta.
-        Ejemplo inválido: String mi-variable = "error"; Esto causaría un error de compilación. */
 
         // Datos primitivos en Java
 
@@ -148,19 +144,19 @@ public class Main {
         int valor = 10;
         System.out.println("Valor inicial: " + valor);
         
-        valor += 5; // Equivale a: valor = valor + 5
+        valor += 5; 
         System.out.println("Después de valor += 5: " + valor);
         
-        valor -= 3; // Equivale a: valor = valor - 3
+        valor -= 3; 
         System.out.println("Después de valor -= 3: " + valor);
         
         int numeroAsignación = 4;
         System.out.println("Número inicial: " + numeroAsignación);
         
-        numeroAsignación *= 4; // Equivale a: numero = numero * 2
+        numeroAsignación *= 4; 
         System.out.println("Después de numero *= 4: " + numeroAsignación);
         
-        numeroAsignación /= 3; // Equivale a: numero = numero / 3
+        numeroAsignación /= 3;
         System.out.println("Después de numero /= 3: " + numeroAsignación);
 
         //%=
